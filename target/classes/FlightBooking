@@ -1,11 +1,10 @@
-package prog2.exercise4.flight.booking.system;
+package prog2.exercise5.flight.booking.system;
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.security.PublicKey;
 import java.util.Random;
 import java.util.Scanner;
-
 import javax.security.auth.callback.ConfirmationCallback;
 import javax.sound.sampled.SourceDataLine;
 
