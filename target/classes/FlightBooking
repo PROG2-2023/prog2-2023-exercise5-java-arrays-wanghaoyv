@@ -1,14 +1,15 @@
 package prog2.exercise5.flight.booking.system;
 
-import java.time.LocalDate;
 import java.time.Period;
-import java.security.PublicKey;
 import java.util.Random;
 import java.util.Scanner;
-import javax.security.auth.callback.ConfirmationCallback;
+import java.time.LocalDate;
+import java.security.PublicKey;
 import javax.sound.sampled.SourceDataLine;
+import javax.security.auth.callback.ConfirmationCallback;
 
-public class FlightBooking {
+public class FlightBooking 
+{
     public String flightCompany;
     public String flightID;
     public String passengerFullName;
@@ -435,10 +436,72 @@ public class FlightBooking {
         departureDate+"\nDate  of  return: returningDate (Changed from old returningDate to new\n" +returnDate+"\nIMPORTANT NOTICE: As per our policy,"+
         " the return date was changed because it was \nless than two days apart from your departure date.");
         break;
+        }
     }
 
-
-
-    }
                             // 练习四 添加区
+
+
+                            // 练习五 添加区
+    int size = 3;
+    public String []passengerFullName = new  String[size];
+    public String []passengerGender = new  String[size];
+    public String []passengerAge = new  String[size];
+    public String []ticketNumber  = new  String[size];
+
+
+    public void setPassengerFullName(int i,String passengerFullName[i]){
+        if(i==0){
+            this.passengerFullName[0] = passengerFullName[i];
+        }else if(i==1){
+            this.passengerFullName[1] = passengerFullName[i];
+        }else if(i==2){
+            this.passengerFullName[2] = passengerFullName[i];
+        }
+            return passengerFullName[i];
+    }
+    public String getPassengerFullName(){
+        return passengerFullName[i];
+    }
+
+    public void setPassengerGender(int i,String passengerGender[i]){
+        if(i==0){
+            this.passengerGender[0] = passengerGender[i];
+        }else if(i==1){
+            this.passengerGender[1] = passengerGender[i];
+        }else if(i==2){
+            this.passengerGender[2] = passengerGender[i];
+        }
+        return passengerGender[i];
+    }
+    public String getPassengerGender(){
+        return passengerGender[i];
+    }
+
+    public void setPassengerAge(int i,String passengerAge[i]){
+        if(i==0){
+            this.passengerAge[0] = passengerAge[i];
+        }else if(i==1){
+            this.passengerAge[1] = passengerAge[i];
+        }else if(i==2){
+            this.passengerAge[2] = passengerAge[i];
+        }
+        return passengerAge[i];
+    }
+    public String getPassengerAge(){
+        return passengerAge[i];
+    }
+
+
+
+
+
+
+
+
+
+
+                            
+
+                            // 练习五 添加区
 }
