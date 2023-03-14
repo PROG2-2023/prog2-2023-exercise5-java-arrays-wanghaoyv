@@ -441,6 +441,8 @@ public class FlightBooking {
     }
     // 练习四 添加区
 
+
+
     // 练习五 添加区
     int size = 3;
     public String[] passengerFullName = new String[] { "Matt Jive", "Sally Fields", "Posh Quattro" };
@@ -448,7 +450,7 @@ public class FlightBooking {
     public int[] passengerAge = new int[] { 43, 32, 21 };
     public String[] ticketNumber = new String[size];
     int number;
-    private Airport destinationAirport;
+    // private Airport destinationAirport;
 
     public void setPassengerFullName(int i, String passengerFullName) {
         this.passengerFullName = new String[] { "Matt Jive", "Sally Fields", "Posh Quattro" };
@@ -461,7 +463,6 @@ public class FlightBooking {
     public void setPassengerGender(int i, String passengerGender) {
         this.passengerGender = new String[] { "Male", "Female", "Other" };
     }
-
     public String getPassengerGender(int i) {
         return passengerGender[i];
     }
@@ -469,7 +470,6 @@ public class FlightBooking {
     public void setPassengerAge(int i, int passengerAge) {
         this.passengerAge = new int[] { 43, 32, 21 };
     }
-
     public int getPassengerAge(int i) {
         return this.passengerAge[i];
     }
@@ -542,12 +542,8 @@ public class FlightBooking {
         }
     }
 
-    public Airport getDestinationAirport(){
-        return destinationAirport;
-    }
-
-    static public void assertEquals(long expected, long actual) {
-        assertEquals(expected, actual);
+    public <Airport> Airport getDestinationAirport(){
+        return getDestinationAirport();
     }
 
 }
