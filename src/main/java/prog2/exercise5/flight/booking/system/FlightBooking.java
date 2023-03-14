@@ -550,6 +550,4 @@ public class FlightBooking {
         assertEquals(expected, actual);
     }
 
-
-    // 练习五 添加区
 }
