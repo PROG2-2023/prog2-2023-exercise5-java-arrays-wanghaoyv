@@ -46,8 +46,8 @@ public class Main {
         // fb.setTotalTicketPrice(5500);
 
 
-        System.out.println("Dear " + fb.getPassengerFullName() + ".Thank you for booking your flight with ."
-                + fb.getFlightCompany());
+        // System.out.println("Dear " + fb.getPassengerFullName() + ".Thank you for booking your flight with ."
+                // + fb.getFlightCompany());
 
         System.out.println("Following are the details of your booking and the trip: ");
 
